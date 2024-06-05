@@ -50,7 +50,7 @@ function collatzA(number) {
 function collatzB(number) {
     const numberRow = []
     numberRow.push(number)
-    
+
     while (number > 1) {
         const isEven = (number % 2) === 0
 
@@ -77,4 +77,4 @@ function createElement(number) {
     const element = document.createElement("li")
     element.textContent = number
     return element
-}
+} */
